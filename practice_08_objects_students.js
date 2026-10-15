@@ -44,10 +44,11 @@ console.log(movie.title)
 // TODO 3: Print true/false — is runtime over 120?
 // console.log(...)
 if (movie.runtime>120)
-
+movie["watched"] = true;
 // TODO 4: Add a `watched` property set to true
 // movie.??? = ???
 console.log(movie.director)
+console.log(movie.watched)
 // TODO 5: Print each key-value pair
 // console.log("Title:", ...)
 // console.log("Year:", ...)
