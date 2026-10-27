@@ -25,59 +25,59 @@ const item = [
 },
  {item: "Chain",
     category: "accessory",
-        price:10
+        price:35
  },
  {item: "Bracelet",
     category: "accessory",
-        price:10
+        price:30
  },
  {item: "Belt",
     category: "accessory",
-        price:10
+        price:40
  },
  {item: "Hat",
     category: "accessory",
-        price:10
+        price:25
  },
  {item: "Necklace",
     category: "accessory",
-        price:10
+        price:60
  },
  {item: "Sunglasses",
     category: "accessory",
-        price:10
+        price:35
  },
  {item: "Eyeglasses",
     category: "accessory",
-        price:10
+        price:80
  },
  {item: "Chair",
     category: "furniture",
-        price:10
+        price:60
  },
  {item: "Couch",
     category: "furniture",
-        price:10
+        price:500
  },
  {item: "Table",
     category: "furniture",
-        price:10
+        price:150
  },
  {item: "Bed Frame",
     category: "furniture",
-        price:10
+        price:150
  },
  {item: "Chandelier",
     category: "furniture",
-        price:10
+        price:200
  },
  {item: "Cabinet",
     category: "furniture",
-        price:10
+        price:60
  },
  {item: "Mattress",
     category: "furniture",
-        price:10
+        price:800
  },
 ]
 
