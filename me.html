@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: Blue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: cyan;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: green;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Eric Berkovich</h2>
+</header>
+
+
+
+<section>
+  <nav>
+    <ul>
+<li><a href="ID.html">ID</a></li>
+   <li><a href="ID1.html">ID1</a></li>
+  <li><a href="ID3.html">ID3</a></li>
+  <li><a href="ID4.html">ID4</a></li>
+  <li><a href="ID5.html">ID5</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>About Me</h1>
+    <p>My name is Eric Berkovich</p>
+<br> 
+<p>I am the youngest sibling among my brother and sister. My family consists of 5 people.</p>
+<br>
+<p></p>
+<br>
+<p></p>
+<br>
+<p></p>
+
+<img src="Eric.jpg" alt="Eric" width="500" height="333">
+
+</article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
