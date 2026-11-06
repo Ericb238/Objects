@@ -1,25 +1,46 @@
-html,
-body,
-*{
-    font-size: 10px;
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-
+* {
+  box-sizing: border-box;
 }
 
-body{
-    background-color : #1d232a;
+/* Style the header */
+#name    {
+  background-color: Blue;
+  padding: 4rem;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
-div{
-    height: 55rem;
-    width: 30rem;
-    background-color : #ffffff;
 
-    margin: 2.5rem 1rem;
-
-    padding:1 rem;
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
 }
-.card{
-    background-color: #00ff00
+
+/* Style the navigation menu */
+.side_panel {
+  background: cyan;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(251, 255, 251);
 }
